@@ -114,9 +114,9 @@
               если каждый вовремя не позаботится о качественном выполнении
               своей работы. Режиссер Питер Берг посвятил этот фильм памяти жертв
               катастрофы, перечислив их поименно. </div>
-<a href="index_f_5.html">
+             <a href="index_f_5.html">
               <img src="images/глуб-горизонт.jpg" width="200" height="300">
-</a>
+             </a>
               <div> <b>Дата премьеры:</b> <time>29 сентября 2016 г.</time></div>
               <div> <b>Режисер:</b> <i>Питер Берг</i></div>
               <br>  <a href="https://www.ivi.ru/watch/144751"> Смотреть фильм </a>
@@ -124,9 +124,9 @@
               <hr>
     </div>
 
-<form action="#" id="form-1">
-  <label for="input-1"> Ваши комметарии </label>
-  <br><input id="input-1"  placeholder="комметарии">
+<form action="#" id="comment_form">
+  <label for="comment_input"> Ваши комметарии </label>
+  <br><input id="comment_input"  placeholder="Комметарии" size="80">
   <select>
       <option value="1">"1+1(Неприкасаемые)"</option>
       <option value="2">"Легенда"</option>
@@ -134,11 +134,13 @@
       <option value="4">"Семь жизней"</option>
       <option value="5"> "Глубоководный горизонт"</option>
   </select>
-  <br><label id="input-2">Фамилия Имя Отчество</label>
-  <input id="input-3"  placeholder="ФИО">
-  <input id="input-4" type="checkbox"  value="Без имени" checked> Без имени
-  <p><button id="input-5"> Отправить</button>
-     <input type="submit" value="Отправить">
+  <br><label id="fio_label">Фамилия Имя Отчество</label>
+  <input id="fio_input"  placeholder="ФИО">
+  <input id="CB_NoName" type="checkbox"  value="Без имени" checked> Без имени
+  <p><input type="reset" value="Очистить данные">
+  <p><button id="send"> Отправить </button>
+
+     <input type="hidden" value="Служебная">
 </form>
 
     <div>
