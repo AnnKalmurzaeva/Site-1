@@ -1,0 +1,45 @@
+
+
+#film1 {
+  background: linen; /* Цвет фона */
+    color: peru; /* Цвет текста */
+    padding: 5px; /* Поля */
+    float: none;
+}
+#film2 {
+  background: lavender; /* Цвет фона */
+    color: steelblue; /* Цвет текста */
+    padding: 5px; /* Поля */
+    float: none;
+}
+
+#film3 {
+  background: whitesmoke; /* Цвет фона */
+    color: dimgray; /* Цвет текста */
+    padding: 5px; /* Поля */
+    float: none;
+}
+#film4 {
+  background: oldlace; /* Цвет фона */
+    color: tan; /* Цвет текста */
+    padding: 5px; /* Поля */
+    float: none;
+}
+#film5 {
+  background: honeydew; /* Цвет фона */
+    color: darkgreen; /* Цвет текста */
+    padding: 5px; /* Поля */
+    float: none;
+}
+div {
+  background: azure; /* Цвет фона */
+    color: deepskyblue; /* Цвет текста */
+    padding: 6px; /* Поля */
+ }
+
+ * {
+   font-family: fantasy;
+   margin: 3px;
+   padding: 5px;
+   border: 1px
+ }
