@@ -2,44 +2,63 @@
 
 #film1 {
   background: linen; /* Цвет фона */
-    color: peru; /* Цвет текста */
-    padding: 5px; /* Поля */
-    float: none;
+  color: peru; /* Цвет текста */
+  padding: 5px; /* Поля */
+  float: none;
 }
 #film2 {
   background: lavender; /* Цвет фона */
-    color: steelblue; /* Цвет текста */
-    padding: 5px; /* Поля */
-    float: none;
+  color: steelblue; /* Цвет текста */
+  padding: 5px; /* Поля */
+  float: none;
 }
 
 #film3 {
   background: whitesmoke; /* Цвет фона */
-    color: dimgray; /* Цвет текста */
-    padding: 5px; /* Поля */
-    float: none;
+  color: dimgray; /* Цвет текста */
+  padding: 5px; /* Поля */
+  float: none;
 }
 #film4 {
   background: oldlace; /* Цвет фона */
-    color: tan; /* Цвет текста */
-    padding: 5px; /* Поля */
-    float: none;
+  color: tan; /* Цвет текста */
+  padding: 5px; /* Поля */
+  float: none;
 }
 #film5 {
   background: honeydew; /* Цвет фона */
-    color: darkgreen; /* Цвет текста */
-    padding: 5px; /* Поля */
-    float: none;
+  color: darkgreen; /* Цвет текста */
+  padding: 5px; /* Поля */
+  float: none;
 }
 div {
   background: azure; /* Цвет фона */
-    color: deepskyblue; /* Цвет текста */
-    padding: 6px; /* Поля */
+  color: deepskyblue; /* Цвет текста */
+  padding: 6px; /* Поля */
+ }
+
+ form {
+   height: auto;
+   width: 80%;
+   background: white;
+   color: black;
+ }
+
+ img {
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+ div [id~=info] {
+   text-align:left; 
  }
 
  * {
    font-family: fantasy;
    margin: 3px;
    padding: 5px;
-   border: 1px
+   border: 1px;
+   text-align: center;
+
  }
