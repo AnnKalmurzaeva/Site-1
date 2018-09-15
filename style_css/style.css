@@ -45,20 +45,42 @@ div {
  }
 
  img {
-   margin-left: auto;
-   margin-right: auto;
-
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+   width: auto;
+   height: auto;
  }
 
  div [id~=info] {
-   text-align:left; 
+   text-align:left;
  }
 
+ #creator_site {
+     position: absolute;
+     color: red;
+     top: 4px;
+     left: 3px;
+     font-size: 14px;
+     font-weight:bold;
+
+ }
+ #create_data {
+   position: absolute;
+   color: pink;
+   background: 9900000.5;
+   top: 25px;
+   left: 5px;
+   font-size: 10px;
+ }
+h1, h2 {
+  text-align: center;
+}
  * {
    font-family: fantasy;
    margin: 3px;
-   padding: 5px;
+   padding: 2px;
    border: 1px;
-   text-align: center;
+   text-align:justify;
 
  }
