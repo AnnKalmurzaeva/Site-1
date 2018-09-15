@@ -46,14 +46,14 @@ div {
 
  img {
    display: table-cell;
-   vertical-align: middle;
    text-align: center;
+   vertical-align: middle;
    width: auto;
    height: auto;
  }
 
- div [id~=info] {
-   text-align:left;
+[id~=info] {
+   text-align:right;
  }
 
  #creator_site {
