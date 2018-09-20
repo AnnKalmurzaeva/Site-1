@@ -52,6 +52,36 @@ div {
    height: auto;
  }
 
+ .container_menu_header {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-around;
+   align-items: baseline;
+   align-content: center;
+   background: 000210;
+ }
+
+ .item_header {
+  flex: 0,1,auto;
+  align-self: center;
+  background: 000005;
+}
+
+.container_menu_footer {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  background: yellow;
+}
+
+.item_footer {
+ flex: 0,1,auto;
+ align-self: flex-start;
+ background: orange;
+}
+
 
 @media all and (max-width: 320px) {
               /*При изменении ширины окна до 320px, меню не должно разваливаться*/
@@ -76,10 +106,14 @@ div {
    text-align:right;
  }
 
- [id=image_svg1] {
-   width: 150px;
-   height: 50px;
+ /*[id=image_svg1] {
+   width: 200px;
+   height: 70px;
    background-repeat: repeat-x;
+ }*/
+
+ [id=image-svg1]{
+background-repeat: repeat-x;
  }
 
  #creator_site {
