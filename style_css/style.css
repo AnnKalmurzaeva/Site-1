@@ -58,13 +58,13 @@ div {
    justify-content: space-around;
    align-items: baseline;
    align-content: center;
-   background: 000210;
+   background: rgba(34,54,151,0.1);
  }
 
  .item_header {
   flex: 0,1,auto;
   align-self: center;
-  background: 000005;
+  background:rgba(09,24,110,0.3);
 }
 
 .container_menu_footer {
@@ -112,9 +112,7 @@ div {
    background-repeat: repeat-x;
  }*/
 
- [id=image-svg1]{
-background-repeat: repeat-x;
- }
+
 
  #creator_site {
      position: absolute;
