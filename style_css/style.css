@@ -33,6 +33,7 @@ div {
    align-items: baseline;
    align-content: center;
    background: rgba(00,00,00,0.0);
+   height: 50px;
  }
 
  .item_header {
@@ -40,6 +41,16 @@ div {
   align-self: center;
   margin: 2px 2px;
   background:rgba(09,24,110,0.3);
+  border: 2px;
+  border-color: rgb(09,24,110);
+  }
+
+#item_1, #item_3, #item_5 {
+  align-self: flex-start;
+}
+
+#item_2, #item_4 {
+  align-self: flex-end;
 }
 
 .container_menu_footer {
