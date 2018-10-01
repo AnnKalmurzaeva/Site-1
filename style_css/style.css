@@ -38,7 +38,6 @@ div {
 
  .item_header {
   flex: 0,1,auto;
-  align-self: center;
   margin: 2px 2px;
   background:rgba(09,24,110,0.3);
   border: 2px;
@@ -68,15 +67,27 @@ div {
  background:rgba(10,33,111,0.3);
 }
 
-
+/*
 @media all and (max-width: 320px) {
               /*При изменении ширины окна до 320px, меню не должно разваливаться*/
-  .menu {
+    .container_menu_header  , .container_menu_footer {
+    display: flex;
+    flex-direction: column;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    background: rgba(00,00,00,0.0);
+    }
+    .item_header, .item_header {
+     flex: 0,1,auto;
+     align-self: center;
+     margin: 1px 1px;
+     }
 
-   }
 }
-
-@media all and (main-width: 740px) {
+*/
+@media all and (min-width: 740px) {
   * {
     font-family: sans-serif;
     margin: 0px;
@@ -84,8 +95,8 @@ div {
     border: 0px;
     text-align:justify;
     width: 740px;
-
   }
+
 }
 
 [id~=info] {
